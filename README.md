@@ -1,11 +1,11 @@
 # dotfiles
 My personal linux shell scripts
 
-### How to setup
+### How to use
 ```sh
 # Clone repo to home directory
-git clone https://github.com/rhelp/dotfiles.git .dotfiles
+git clone https://github.com/rhelp/dotfiles.git ~
 
-# Create symbolic link to .profile
-rhelper@ubuntu:~$ ln -s $HOME/.dotfiles/.profile $HOME/.profile
+# Execute the install script
+rhelper@ubuntu:~$ ./dotfiles/install.sh
 ```
