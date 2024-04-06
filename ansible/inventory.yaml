@@ -1,0 +1,12 @@
+linode:
+  hosts:
+    linode-us-east:
+      ansible_host: linode-us-east
+    linode-us-central:
+      ansible_host: linode-us-central
+    linode-us-west:
+      ansible_host: linode-us-west
+    linode-us-southeast:
+      ansible_host: linode-us-southeast
+    linode-us-midwest:
+      ansible_host: linode-us-midwest
