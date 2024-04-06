@@ -133,5 +133,6 @@ if [ -d "/usr/local/go/bin" ]; then
     PATH="$PATH:/usr/local/go/bin"
 fi
 
-# register pipx autocomplete
+# Autocomplete
 eval "$(register-python-argcomplete pipx)"
+complete -C /usr/bin/terraform terraform

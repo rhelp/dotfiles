@@ -1,0 +1,10 @@
+# append -Kv to prompt for sudo password and display output
+- name: Upgrade packages
+  hosts: linode
+  tasks:
+    - name: Update and upgrade apt packages
+      become: true
+      apt:
+        upgrade: yes
+        update_cache: yes
+        #cache_valid_time: 84600
