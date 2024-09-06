@@ -1,0 +1,9 @@
+# append -Kv to prompt for sudo password and display output
+- name: Reboot an inventory of machines
+  hosts: all
+  tasks:
+    - name: Reboot the machine
+      become: true
+      reboot:
+        reboot_timeout: 3600
+        msg: "Ansible is rebooting this machine in 5 seconds"

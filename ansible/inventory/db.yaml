@@ -1,0 +1,9 @@
+master:
+  hosts:
+    yelan:
+
+replicas:
+  hosts:
+    jean:
+    keqing:
+
