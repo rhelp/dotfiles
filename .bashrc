@@ -134,5 +134,5 @@ if [ -d "/usr/local/go/bin" ]; then
 fi
 
 # Autocomplete
-eval "$(register-python-argcomplete pipx)"
+#eval "$(register-python-argcomplete3 pipx)"
 complete -C /usr/bin/terraform terraform
